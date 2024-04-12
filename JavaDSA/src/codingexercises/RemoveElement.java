@@ -33,7 +33,7 @@ public class RemoveElement {
 		int i = 0;
 		for(int j =0;j<nums.length;j++) {
 			if(nums[j] != value) {
-				nums[j] = nums[i];
+				nums[i] = nums[j];
 				i+=1;
 			}
 		}
